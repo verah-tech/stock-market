@@ -1,0 +1,7 @@
+finnhub-python==2.4.14  # The official Finnhub Python client
+pydantic[dotenv]==1.9.2 # We will use Pydantic to create data models
+celery[redis]==5.2.7    # Celery will be the periodic task executor
+psycopg2==2.9.1  # We are using QuestDB's PostgreSQL connector
+dash==2.6.1             # Dash is used for building data apps
+pandas==1.4.3           # Pandas will handle the data frames from QuestDB
+plotly==5.10.0          # Plotly will help us with beautiful charts
